@@ -3,6 +3,7 @@
 
 
 ## Sample
+-----
 var magfa = require('magfa')
 var app = new magfa({
 	username : 'USERNAME',
@@ -11,6 +12,7 @@ var app = new magfa({
 	to : '091XXXXXXXX'
 });
 app.enqueue('sample text').get(console.log);
+-----
 
 ## Methods:
 1. enqueue **implemented**
